@@ -9,9 +9,9 @@ class Shoe
     BRAND << brand
   end
 
-  def brand=(brand)
-    BRANDS << brand
-  end
+#  def brand=(brand)
+#    BRANDS << brand
+#  end
 
   def cobble
     self.condition = "new"
